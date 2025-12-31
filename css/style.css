@@ -214,15 +214,7 @@ h2 {
   width: 100%;
   max-width: 700px;
   height: auto;
-  border-radius: 8px;
-  object-fit: cover;
-  transition: transform 0.2s, opacity 0.2s;
-  box-shadow: 0 4px 12px var(--shadow);
-}
-
-.paper-link:hover .paper-image {
-  transform: scale(1.01);
-  opacity: 0.95;
+  display: block;
 }
 
 .paper-info {
