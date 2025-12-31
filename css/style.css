@@ -237,6 +237,16 @@ h2 {
   color: var(--text);
 }
 
+.paper-title a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.paper-title a:hover {
+  color: var(--accent);
+}
+
 .paper-journal {
   color: var(--muted);
   font-style: italic;
