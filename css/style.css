@@ -201,62 +201,55 @@ h2 {
 }
 
 .paper-alert {
-  text-align: center;
-  padding: 24px;
-  background: var(--card);
-  border-radius: 12px;
-  border: 2px solid var(--accent);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.paper-alert:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--shadow);
+  padding: 0;
+  background: transparent;
 }
 
 .paper-link {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .paper-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
-  transition: transform 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .paper-link:hover .paper-image {
-  transform: scale(1.02);
+  transform: scale(1.01);
+  opacity: 0.95;
 }
 
 .paper-info {
-  margin-top: 20px;
+  margin-top: 24px;
+  text-align: left;
 }
 
 .paper-alert-intro {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   color: var(--accent);
 }
 
 .paper-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   line-height: 1.6;
   color: var(--text);
 }
 
 .paper-journal {
-  color: var(--accent);
+  color: var(--muted);
   font-style: italic;
-  font-weight: 500;
-  font-size: 1rem;
-  margin-top: 12px;
+  font-weight: 400;
+  font-size: 0.95rem;
 }
 
 /* Publications */
