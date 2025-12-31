@@ -232,21 +232,12 @@ h2 {
   flex: 1;
 }
 
-.paper-info h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
+.paper-alert-text {
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 12px;
-  line-height: 1.4;
-}
-
-.paper-info h3 a {
+  line-height: 1.6;
   color: var(--text);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.paper-info h3 a:hover {
-  color: var(--accent);
 }
 
 .paper-journal {
